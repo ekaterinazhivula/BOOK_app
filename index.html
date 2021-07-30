@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book_app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2 class="forms">Book_app</h2>
+    <div class="container">
+		<form method="post" class="travelbook_form" id ="travel_book_form"> 
+			<input type="text" name="name"  placeholder="Название"  required >
+            <input type="text" name="author"  placeholder="Автор"  required >	
+            <input type="number" name="page_number"  placeholder="Количество страниц"  required >
+            <input type="text" name="cover_number"  placeholder="Тип обложки"  required >
+			<input type="submit" value="Добавить книгу">
+		</form>
+        <form method="post" class="comics_form" id="comics_book_form"> 
+			<input type="text" name="name"  placeholder="Название"  required >
+            <input type="text" name="author"  placeholder="Автор"  required >	
+            <input type="number" name="page_number"  placeholder="Количество страниц"  required >
+            <input type="text" name="issue_number"  placeholder="Номер выпуска"  required >
+			<input type="submit" value="Добавить книгу">
+		</form>
+	</div>
+    <div id="table-container">
+        <table>
+            <thead>
+                <th>Название книги</th>
+                <th>Автор книги</th>
+                <th>Действие</th>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+ 
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

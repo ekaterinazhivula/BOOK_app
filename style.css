@@ -1,0 +1,27 @@
+.container {
+    width: 550px;
+    display: flex;
+    margin: 30px auto;
+    position: relative;
+} 
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #b1b1b1;
+    text-transform: uppercase;
+} 
+input {
+    display: block;
+    margin: 10px 70px;
+}
+
+table {
+    min-width: 500px;
+    margin: 10px auto;
+}
+.btn {
+    display: inline-block;
+    margin: 10px 5px;
+}
